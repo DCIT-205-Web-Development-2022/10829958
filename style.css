@@ -1,0 +1,77 @@
+body{
+    color: whitesmoke;
+    background-color: rgb(94, 76, 76);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 17px;
+}
+
+
+a{
+    color: blanchedalmond;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 20px;
+    text-decoration: underline;
+    r
+}
+
+a:hover{
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+img{
+    float: left;
+    width: 200px;
+    height: 250px;
+    padding-right: 20px;
+}
+
+table{
+    border: 5px black solid;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 20px;;
+}
+
+th{
+    border: 2px black solid;
+
+}
+
+td{
+    border: 1px black solid;
+    padding: 25px;
+    font-weight: bold;
+}
+
+form{
+    width: 60%;
+    margin: auto;
+    font-family:  sans-serif;
+    border: 2px black solid;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgb(116, 101, 101);
+}
+label{
+    flex: 2;
+    text-align: right;
+}
+
+input{
+    flex: 2;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+::placeholder{
+    border-radius: 10px;
+}
+#see{
+    font-size: 5px,blue;
+    font-family: Arial;
+}
